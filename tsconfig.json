@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "target": "es6", // versão de compilação do typescript (ts).
+        "outDir": "app/js", // caminho da pasta onde ficarão os arquivos compilados do .ts para .js.
+        "noEmitOnError": true, // se tiver erro no código .ts (build). O compilador não gerará (compilação) o código .js.
+        "noImplicitAny": true, // o compilador obriga a tipagem obrigatória (tipagem explícita).
+        "removeComments": true // quando o código compilar com sucesso o comentário não replicará no .js.
+    },
+    "include": [
+        "app/ts/**/*" // caminho da pasta onde o compilador procurará o código .ts para compilar.
+    ]
+}

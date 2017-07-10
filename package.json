@@ -1,0 +1,17 @@
+{
+  "name": "example-typescript-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "autoCompile": "tsc -w"
+  },
+  "author": "Eric Chinen",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jquery": "^2.0.42",
+    "typescript": "^2.4.1"
+  }
+}
